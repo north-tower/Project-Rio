@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import HomeScreen from './screens/HomeScreen';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-// import ResturantScreen from './screens/ResturantScreen';
+import ResturantScreen from './screens/ResturantScreen';
 import 'react-native-gesture-handler';
 import { Provider } from 'react-redux';
 // import { store } from './store';
@@ -27,9 +27,10 @@ export default function App() {
             <Stack.Screen name="Home" component={HomeScreen}  options={{
                   headerShown: false,
                 }}/>
-            {/* <Stack.Screen name="Resturant" component={ResturantScreen}  options={{
+             <Stack.Screen name="Resturant" component={ResturantScreen}  options={{
                   headerShown: false,
                 }}/>
+                {/*
               <Stack.Screen name="Basket" component={BasketScreen}  options={{
                 presentation: "modal",
                   headerShown: false,

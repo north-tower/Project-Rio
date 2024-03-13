@@ -14,10 +14,15 @@ const ResturantCard = ({
        id, imgUrl, title, rating, genre, address, short_description, dishes, long, lat,
 }) => {
   
+    const navigation = useNavigation();
 
   return (
     <TouchableOpacity
- 
+    onPress={() => {
+        navigation.navigate("Resturant", {id, imgUrl, title, rating, genre, address, short_description, dishes, long, lat,
+
+        });
+    }} 
      style={tw`bg-white mr-3 shadow`}>
            <Image source={{ uri: imgUrl, }} style={tw`h-36 w-64 rounded-sm`} />
             <View style={tw`px-3 pb-4`}>

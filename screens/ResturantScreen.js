@@ -4,11 +4,11 @@ import { useNavigation, useRoute } from '@react-navigation/native'
 // import { ScrollView } from 'react-native-gesture-handler'
 import tw from "tailwind-react-native-classnames"
 import { ArrowLeftIcon, ChevronRightIcon, MapPinIcon, QuestionMarkCircleIcon, StarIcon } from 'react-native-heroicons/solid'
-import DishRow from '../components/DishRow'
-import BasketIcon from '../components/BasketIcon'
+// import DishRow from '../components/DishRow'
+// import BasketIcon from '../components/BasketIcon'
 import { useDispatch } from 'react-redux'
 import {useEffect } from 'react'
-import { setResturant } from '../features/resturantSlice'
+// import { setResturant } from '../features/resturantSlice'
 
 const ResturantScreen = () => {
     const dispatch = useDispatch();
@@ -80,7 +80,7 @@ const ResturantScreen = () => {
                     Catalog
                 </Text>
 
-                {dishes.map(dish=>
+                {/* {dishes.map(dish=>
                 (
                     <DishRow 
                     key={dish.name}
@@ -89,7 +89,7 @@ const ResturantScreen = () => {
                     description={dish.description}
                     price={dish.price}
                     image={dish.image} />
-                ))}
+                ))} */}
             </View>
         </ScrollView>
     </>
