@@ -21,7 +21,7 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <Provider store={store}>
+   
         <SafeAreaProvider>
           <Stack.Navigator>
             <Stack.Screen name="Home" component={HomeScreen}  options={{
@@ -45,7 +45,7 @@ export default function App() {
                   }}/> */}
           </Stack.Navigator>
         </SafeAreaProvider>
-      </Provider>
+     
       
     </NavigationContainer>
   );
