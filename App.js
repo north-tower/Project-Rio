@@ -20,7 +20,7 @@ export default function App() {
        <View style={tw`flex-row items-center pb-2 mx-4`}>
             <View style={tw`flex-row flex-1 bg-gray-200 p-3 rounded-full `}>
                 <MagnifyingGlassCircleIcon color="gray"  />
-                <TextInput placeholder='Interior Design' />
+                <TextInput placeholder='Emergency Services' />
             </View>
 
             <AdjustmentsHorizontalIcon  color="#00CCBB" />
