@@ -5,10 +5,10 @@ import { useNavigation, useRoute } from '@react-navigation/native'
 import tw from "tailwind-react-native-classnames"
 import { ArrowLeftIcon, ChevronRightIcon, MapPinIcon, QuestionMarkCircleIcon, StarIcon } from 'react-native-heroicons/solid'
 // import DishRow from '../components/DishRow'
-// import BasketIcon from '../components/BasketIcon'
+import BasketIcon from '../components/BasketIcon'
 import { useDispatch } from 'react-redux'
 import {useEffect } from 'react'
-// import { setResturant } from '../features/resturantSlice'
+import { setResturant } from '../features/resturantSlice'
 
 const ResturantScreen = () => {
     const dispatch = useDispatch();
