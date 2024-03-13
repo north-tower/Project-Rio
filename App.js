@@ -1,44 +1,53 @@
-import { StyleSheet, Text, View, TextInput } from 'react-native'
-import React, { useLayoutEffect, useState, useEffect } from 'react'
-import { useNavigation } from '@react-navigation/native'
+import { StyleSheet, Text, View } from 'react-native';
 import tw from "tailwind-react-native-classnames"
-import { SafeAreaView } from 'react-native-safe-area-context';
-import { Image } from 'react-native';
-// import { UserIcon, ChevronDownIcon } from "react-native-heroicons/outline"
-import FeaturedRow from './components/FeaturedRow';
-import { AdjustmentsHorizontalIcon } from 'react-native-heroicons/solid';
-import  { MagnifyingGlassCircleIcon } from 'react-native-heroicons/solid';
-import {CameraIcon } from 'react-native-heroicons/solid';
-import { ScrollView } from 'react-native';
-import  Categories from "./components/Categories"
-import FeaturedRow2 from './components/FeaturedRow2'
-import FeaturedRow3 from './components/FeaturedRow3';
+import { NavigationContainer } from '@react-navigation/native';
+import HomeScreen from './screens/HomeScreen';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+// import ResturantScreen from './screens/ResturantScreen';
+import 'react-native-gesture-handler';
+import { Provider } from 'react-redux';
+// import { store } from './store';
+// import BasketScreen from './screens/BasketScreen';
+// import PreparingOrderScreen from './screens/PreparingOrderScreen';
+// import DeliveryScreen from './screens/DeliveryScreen';
+
+
+
+const Stack = createNativeStackNavigator();
+
 
 export default function App() {
+
   return (
-    <SafeAreaView style={tw`bg-white pt-5`}>
-       <View style={tw`flex-row items-center pb-2 mx-4`}>
-            <View style={tw`flex-row flex-1 bg-gray-200 p-3 rounded-full `}>
-                <MagnifyingGlassCircleIcon color="gray"  />
-                <TextInput placeholder='Emergency Services' />
-            </View>
-
-            <AdjustmentsHorizontalIcon  color="#00CCBB" />
-        </View>
-        <ScrollView style={tw`bg-gray-100`} contentContainerStyle={{ paddingBottom: 100,}}>
-            <Categories />
-            <FeaturedRow title="Traditional and Classic" description="Features timeless elegance, rich textures, and refined elements that evoke a sense of history and sophistication."
-            id="1" />
-
-            <FeaturedRow2 title="Modern and Contemporary" 
-            description="Emphasizes clean lines, minimalism, and a blend of sleek aesthetics with functional and innovative elements."
-            id="2" />
-             <FeaturedRow3 title="Eclectic and Bohemian"
-             description="Features a harmonious blend of diverse styles, cultural influences, and artistic elements, creating a vibrant and free-spirited living space."
-            id="3" />
-        </ScrollView>
+    <NavigationContainer>
+      <Provider store={store}>
+        <SafeAreaProvider>
+          <Stack.Navigator>
+            <Stack.Screen name="Home" component={HomeScreen}  options={{
+                  headerShown: false,
+                }}/>
+            {/* <Stack.Screen name="Resturant" component={ResturantScreen}  options={{
+                  headerShown: false,
+                }}/>
+              <Stack.Screen name="Basket" component={BasketScreen}  options={{
+                presentation: "modal",
+                  headerShown: false,
+                }}/>
+                <Stack.Screen name="PreparingOrderScreen" component={PreparingOrderScreen}  options={{
+                presentation: "fullScreenModal",
+                  headerShown: false,
+                }}/> 
+                <Stack.Screen name="DeliveryScreen" component={DeliveryScreen} 
+                 options={{
+                  presentation: "fullScreenModal",
+                    headerShown: false,
+                  }}/> */}
+          </Stack.Navigator>
+        </SafeAreaProvider>
+      </Provider>
       
-      </SafeAreaView>
+    </NavigationContainer>
   );
 }
 
@@ -50,6 +59,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
-
-

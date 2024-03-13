@@ -35,12 +35,12 @@ const Categories = () => {
          short_description=" Rustic design embraces a warm, earthy feel with natural materials, exposed wood, and a cozy, country-inspired atmosphere." 
          dishes={["Thai Rice","Greens"]} long={10} lat={0} />
 
-<CategoryCard id={14} imgUrl="https://plus.unsplash.com/premium_photo-1686090449192-4ab1d00cb735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJ1c3RpYyUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+<CategoryCard id={14} imgUrl="https://images.unsplash.com/photo-1644567103258-6da3857faab4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHV0aWxpdHklMjBjb21wYW5pZXN8ZW58MHx8MHx8fDA%3D"
          title="Utility Companies" rating={7.5} genre="Earthy"
          short_description=" Rustic design embraces a warm, earthy feel with natural materials, exposed wood, and a cozy, country-inspired atmosphere." 
          dishes={["Thai Rice","Greens"]} long={10} lat={0} />
 
-         <CategoryCard id={14} imgUrl="https://plus.unsplash.com/premium_photo-1686090449192-4ab1d00cb735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJ1c3RpYyUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+         <CategoryCard id={14} imgUrl="https://plus.unsplash.com/premium_photo-1680721444667-25f7e29520ee?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGFuaW1hbCUyMGNvbXBhbnl8ZW58MHx8MHx8fDA%3D"
          title="Animal Control" rating={7.5} genre="Earthy"
          short_description=" Rustic design embraces a warm, earthy feel with natural materials, exposed wood, and a cozy, country-inspired atmosphere." 
          dishes={["Thai Rice","Greens"]} long={10} lat={0} />
