@@ -11,8 +11,8 @@ import  { MagnifyingGlassCircleIcon } from 'react-native-heroicons/solid';
 import {CameraIcon } from 'react-native-heroicons/solid';
 import { ScrollView } from 'react-native';
 import  Categories from "./components/Categories"
-// import FeaturedRow2 from '../components/FeaturedRow2'
-// import FeaturedRow3 from '../components/FeaturedRow3';
+import FeaturedRow2 from './components/FeaturedRow2'
+import FeaturedRow3 from './components/FeaturedRow3';
 
 export default function App() {
   return (
@@ -30,6 +30,12 @@ export default function App() {
             <FeaturedRow title="Traditional and Classic" description="Features timeless elegance, rich textures, and refined elements that evoke a sense of history and sophistication."
             id="1" />
 
+            <FeaturedRow2 title="Modern and Contemporary" 
+            description="Emphasizes clean lines, minimalism, and a blend of sleek aesthetics with functional and innovative elements."
+            id="2" />
+             <FeaturedRow3 title="Eclectic and Bohemian"
+             description="Features a harmonious blend of diverse styles, cultural influences, and artistic elements, creating a vibrant and free-spirited living space."
+            id="3" />
         </ScrollView>
       
       </SafeAreaView>
