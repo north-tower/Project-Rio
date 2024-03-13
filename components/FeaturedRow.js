@@ -23,7 +23,7 @@ const FeaturedRow = ({id, title, description }) => {
          short_description="This style draws inspiration from classic European designs and is characterized by ornate details, rich colors, and formal furniture arrangements." 
          dishes={[
           {
-            name: "Traditional Living Room",
+            name: "Emergency Services",
             description: "A contemporary and stylish living room with traditional furniture and decor.With sleek lines and a minimalist color scheme, this room is the epitome of modern living.",
             price: 12.99,
             id: "1",

@@ -86,15 +86,15 @@ const HomeScreen = () => {
                 title={category.name} description={category.short_description}
                 />
             })} */}
-  <FeaturedRow title="Traditional and Classic" description="Features timeless elegance, rich textures, and refined elements that evoke a sense of history and sophistication."
+  <FeaturedRow title="Emergency Services" description="Features timeless elegance, rich textures, and refined elements that evoke a sense of history and sophistication."
             id="1" />
 
             
-            <FeaturedRow2 title="Modern and Contemporary" 
+            <FeaturedRow2 title="Emergency Contacts" 
             description="Emphasizes clean lines, minimalism, and a blend of sleek aesthetics with functional and innovative elements."
             id="2" />
             
-            <FeaturedRow3 title="Eclectic and Bohemian"
+            <FeaturedRow3 title="Alerts"
              description="Features a harmonious blend of diverse styles, cultural influences, and artistic elements, creating a vibrant and free-spirited living space."
             id="3" />
 
