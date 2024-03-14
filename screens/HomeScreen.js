@@ -92,7 +92,7 @@ Emergency services are the frontline heroes, providing immediate assistance and 
 
             
             <FeaturedRow2 title="Emergency Contacts" 
-            description="Emphasizes clean lines, minimalism, and a blend of sleek aesthetics with functional and innovative elements."
+            description="Community Emergency Response Teams (CERT) serve as crucial emergency contacts, comprising trained volunteers who assist first responders during disasters or large-scale emergencies. They provide immediate support, aid in search and rescue operations, and help with disaster response and recovery efforts, enhancing overall community resilience and preparedness."
             id="2" />
             
             <FeaturedRow3 title="Alerts"
