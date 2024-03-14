@@ -47,12 +47,12 @@ const ResturantScreen = () => {
                 <View style={tw`px-4 pt-4`}>
                     <Text style={tw`text-3xl text-black font-bold`}>{title}</Text>
                     <View style={tw`flex-row p-2 my-1`}>
-                        <View style={tw`flex-row items-center p-1`}>
+                        {/* <View style={tw`flex-row items-center p-1`}>
                             <StarIcon color="green" opacity={0.5} size={22} />
                             <Text style={tw`text-xs text-gray-500`}>
                             <Text style={tw`text-xs text-green-500`}>{rating}
                             </Text>-{genre}</Text>
-                        </View>
+                        </View> */}
                         <View style={tw`flex-row items-center p-1`}>
                             <MapPinIcon color="gray" opacity={0.4} size={22} />
                             <Text style={tw`text-xs text-gray-500`}>
@@ -77,7 +77,7 @@ const ResturantScreen = () => {
 
             <View style={tw`pb-36`} >
                 <Text style={tw`px-4 pt-6 mb-3 text-black font-bold text-xl`}>
-                    Catalog
+                    Nearby
                 </Text>
 
                 {dishes.map(dish=>

@@ -29,11 +29,11 @@ const ResturantCard = ({
                  <Text style={tw`font-bold text-black text-lg pt-2`}>
                      {title}
                  </Text>
-                 <View style={tw`flex-row items-center p-1 `}>
+                 {/* <View style={tw`flex-row items-center p-1 `}>
                      <StarIcon color="green" opacity={0.5} size={22} />
                      <Text style={tw`text-xs text-gray-500`}>
                          <Text style={tw`text-green-500`}>{rating}</Text> * {genre}  </Text>
-                 </View>
+                 </View> */}
     
                  <View style={tw`flex-row items-center p-1`}>
                      <MapPinIcon color="gray" opacity={0.4} size={22} />

@@ -23,7 +23,7 @@ const BasketIcon = () => {
   ]}
 >
          
-            <Text style={tw`flex-1 text-white font-extrabold text-lg text-center`}>View Design</Text>
+            <Text style={tw`flex-1 text-white font-extrabold text-lg text-center`}>Go to location</Text>
            
 
         </TouchableOpacity>

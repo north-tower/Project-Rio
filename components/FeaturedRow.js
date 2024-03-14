@@ -20,8 +20,7 @@ const FeaturedRow = ({id, title, description }) => {
       }} showsHorizontalScrollIndicator={false} style={tw`pt-4`} >
         <ResturantCard id={13} imgUrl="https://images.unsplash.com/photo-1509732344995-2397751a0061?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9saWNlJTIwc3RhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
          title="Police Stations" rating={4.5} genre="European"  
-         short_description="
-         Emergency services are the frontline heroes, providing immediate assistance and saving lives in critical situations. Their swift response and unwavering dedication ensure the safety and well-being of communities in times of crisis.." 
+         short_description="Police stations serve as essential hubs for law enforcement, ensuring public safety and upholding justice within communities. They provide a vital link between citizens and law enforcement officers, offering support, resources, and a sense of security to residents." 
          dishes={[
           {
             name: "Juja Police",
@@ -32,13 +31,13 @@ const FeaturedRow = ({id, title, description }) => {
           },
           {
             name: "DCI Juja",
-            description: "An elegant and sophisticated bedroom with luxurious furnishings and a cozy ambiance.This opulent space is designed to indulge your senses and provide a sanctuary for rest and relaxation.",
+            description: "Best in the game.",
             price: 9.99,
             id: "2",
             image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
           }
         ]}
-          long={10} lat={0} />
+          long={10} lat={0} address={78}/>
          <ResturantCard id={14} imgUrl="https://plus.unsplash.com/premium_photo-1686090449192-4ab1d00cb735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJ1c3RpYyUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
          title="Rustic" rating={7.5} genre="Earthy"
          short_description=" Rustic design embraces a warm, earthy feel with natural materials, exposed wood, and a cozy, country-inspired atmosphere." 

@@ -87,7 +87,7 @@ const HomeScreen = () => {
                 />
             })} */}
   <FeaturedRow title="Emergency Services" description="
-Emergency services are the frontline heroes, providing immediate assistance and saving lives in critical situations. Their swift response and unwavering dedication ensure the safety and well-being of communities in times of crisis.."
+Emergency services are the frontline heroes, providing immediate assistance and saving lives in critical situations. Their swift response and unwavering dedication ensure the safety and well-being of communities in times of crisis."
             id="1" />
 
             
