@@ -9,6 +9,7 @@ import BasketIcon from '../components/BasketIcon'
 import { useDispatch } from 'react-redux'
 import {useEffect } from 'react'
 import { setResturant } from '../features/resturantSlice'
+import { Button } from '../components/Button'
 
 const ResturantScreen = () => {
     const dispatch = useDispatch();
@@ -73,6 +74,8 @@ const ResturantScreen = () => {
                     </Text>
                     <ChevronRightIcon color="#00CCBB"/>
                 </TouchableOpacity>
+                <Button label="Button" variant="destructive" style={tw`px-6 py-3 rounded-lg `} />
+
             </View>
 
             <View style={tw`pb-36`} >
