@@ -38,8 +38,8 @@ const FeaturedRow = ({id, title, description }) => {
           }
         ]}
           long={10} lat={0} address={78}/>
-         <ResturantCard id={14} imgUrl="https://plus.unsplash.com/premium_photo-1686090449192-4ab1d00cb735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJ1c3RpYyUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
-         title="Rustic" rating={7.5} genre="Earthy"
+         <ResturantCard id={14} imgUrl="https://images.unsplash.com/photo-1606613816768-63888be4a54f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGVtZXJnZW5jeSUyMHNlcnZpY2VzfGVufDB8fDB8fHww"
+         title="Fire Department" rating={7.5} genre="Earthy"
          short_description=" Rustic design embraces a warm, earthy feel with natural materials, exposed wood, and a cozy, country-inspired atmosphere." 
         dishes ={[
   {

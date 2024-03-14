@@ -71,7 +71,7 @@ const BasketScreen = () => {
         <View style={tw`p-5 bg-white  `}>
           
           <TouchableOpacity onPress={() => navigation.navigate("PreparingOrderScreen")} style={[tw`rounded-lg p-4`,  { backgroundColor: '#00CCBB' }]}>
-            <Text style={tw`text-center text-white text-lg font-bold`}>Book Appointment</Text>
+            <Text style={tw`text-center text-white text-lg font-bold`}>Report Incident</Text>
           </TouchableOpacity>
         
       </View>
