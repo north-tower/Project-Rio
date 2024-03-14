@@ -75,7 +75,44 @@ const FeaturedRow = ({id, title, description }) => {
               },
             ]}
             long={10} lat={0} />
-
+            <ResturantCard id={14} imgUrl="https://images.unsplash.com/photo-1611839699701-5cd5f18c25a4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29hc3QlMjBndWFyZHN8ZW58MHx8MHx8fDA%3D"
+                    title="Coast Guards" rating={7.5} genre="Earthy" address="56"
+                    short_description="Coast guards are the vigilant protectors of maritime safety, patrolling vast waters and safeguarding lives and resources from perilous seas. With their unwavering commitment and expertise, they navigate treacherous waters, conduct daring rescues, and uphold maritime laws, ensuring the security and well-being of coastal communities and beyond." 
+                    dishes ={[
+              {
+                name: "Marina One",
+                description: "Eastside.",
+                id: "3",
+                image: "https://images.unsplash.com/photo-1484301548518-d0e0a5db0fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJ1c3RpYyUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+              },
+              {
+                name: "Likoni",
+                description: "Here to stay. ",
+                price: 10.99,
+                id: "4",
+                image: "https://images.unsplash.com/photo-1540809799-5da9372c3f64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJ1c3RpYyUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+              },
+            ]}
+            long={10} lat={0} />
+            <ResturantCard id={14} imgUrl="https://images.unsplash.com/photo-1644567103258-6da3857faab4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHV0aWxpdHklMjBjb21wYW5pZXN8ZW58MHx8MHx8fDA%3D"
+                    title="Utilities" rating={7.5} genre="Earthy" address="56"
+                    short_description="Utilities are the backbone of modern society, providing essential services such as electricity, water, and gas that sustain our daily lives. With their reliable infrastructure and expertise, they ensure that homes, businesses, and industries have access to the vital resources needed for comfort, productivity, and progress." 
+                    dishes ={[
+              {
+                name: "KPLC",
+                description: "Powering people for better lives by innovatively securing business sustainability.",
+                id: "3",
+                image: "https://images.unsplash.com/photo-1484301548518-d0e0a5db0fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJ1c3RpYyUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+              },
+              {
+                name: "Water company",
+                description: "Water is life. ",
+                price: 10.99,
+                id: "4",
+                image: "https://images.unsplash.com/photo-1540809799-5da9372c3f64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJ1c3RpYyUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+              },
+            ]}
+            long={10} lat={0} />
 
       </ScrollView>
     </View>
