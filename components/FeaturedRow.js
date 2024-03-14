@@ -18,19 +18,20 @@ const FeaturedRow = ({id, title, description }) => {
       <ScrollView horizontal contentContainerStyle={{
         paddingHorizontal: 15,
       }} showsHorizontalScrollIndicator={false} style={tw`pt-4`} >
-        <ResturantCard id={13} imgUrl="https://images.unsplash.com/photo-1478606604719-cce9b0e91569?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRyYWRpdGlvbmFsJTIwaW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-         title="Traditional" rating={4.5} genre="European"  
-         short_description="This style draws inspiration from classic European designs and is characterized by ornate details, rich colors, and formal furniture arrangements." 
+        <ResturantCard id={13} imgUrl="https://images.unsplash.com/photo-1509732344995-2397751a0061?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9saWNlJTIwc3RhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+         title="Police Stations" rating={4.5} genre="European"  
+         short_description="
+         Emergency services are the frontline heroes, providing immediate assistance and saving lives in critical situations. Their swift response and unwavering dedication ensure the safety and well-being of communities in times of crisis.." 
          dishes={[
           {
-            name: "Emergency Services",
-            description: "A contemporary and stylish living room with traditional furniture and decor.With sleek lines and a minimalist color scheme, this room is the epitome of modern living.",
+            name: "Juja Police",
+            description: "Ready to serve.",
             price: 12.99,
             id: "1",
             image: "https://images.unsplash.com/photo-1600210491369-e753d80a41f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW9kZXJuJTIwbGl2aW5nJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
           },
           {
-            name: "Elegant Bedroom",
+            name: "DCI Juja",
             description: "An elegant and sophisticated bedroom with luxurious furnishings and a cozy ambiance.This opulent space is designed to indulge your senses and provide a sanctuary for rest and relaxation.",
             price: 9.99,
             id: "2",

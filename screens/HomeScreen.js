@@ -86,7 +86,8 @@ const HomeScreen = () => {
                 title={category.name} description={category.short_description}
                 />
             })} */}
-  <FeaturedRow title="Emergency Services" description="Features timeless elegance, rich textures, and refined elements that evoke a sense of history and sophistication."
+  <FeaturedRow title="Emergency Services" description="
+Emergency services are the frontline heroes, providing immediate assistance and saving lives in critical situations. Their swift response and unwavering dedication ensure the safety and well-being of communities in times of crisis.."
             id="1" />
 
             
