@@ -39,24 +39,42 @@ const FeaturedRow = ({id, title, description }) => {
         ]}
           long={10} lat={0} address={78}/>
          <ResturantCard id={14} imgUrl="https://images.unsplash.com/photo-1606613816768-63888be4a54f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGVtZXJnZW5jeSUyMHNlcnZpY2VzfGVufDB8fDB8fHww"
-         title="Fire Department" rating={7.5} genre="Earthy"
-         short_description=" Rustic design embraces a warm, earthy feel with natural materials, exposed wood, and a cozy, country-inspired atmosphere." 
-        dishes ={[
-  {
-    name: "Rustic Living Room",
-    description: "Step into a cozy and inviting rustic living room with warm wooden accents and earthy tones.",
-    id: "3",
-    image: "https://images.unsplash.com/photo-1484301548518-d0e0a5db0fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJ1c3RpYyUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-  },
-  {
-    name: "Rustic Kitchen",
-    description: "Experience the charm of a rustic kitchen with vintage elements and natural textures. ",
-    price: 10.99,
-    id: "4",
-    image: "https://images.unsplash.com/photo-1540809799-5da9372c3f64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJ1c3RpYyUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-  },
-]}
-long={10} lat={0} />
+         title="Fire Department" rating={7.5} genre="Earthy" address="56"
+            short_description="Fire departments are the cornerstone of community safety, responding swiftly to emergencies and protecting lives and property from the ravages of fire. With their courage and expertise, they stand as guardians against the destructive forces of nature, offering reassurance and support to those in need." 
+            dishes ={[ {
+                name: "Fire Station Central",
+                description: "Fire Warriors.",
+                id: "3",
+                image: "https://images.unsplash.com/photo-1484301548518-d0e0a5db0fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJ1c3RpYyUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+              },
+              {
+                name: "Fire Station Outpost",
+                description: "Experience the charm of a rustic kitchen with vintage elements and natural textures. ",
+                price: 10.99,
+                id: "4",
+                image: "https://images.unsplash.com/photo-1540809799-5da9372c3f64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJ1c3RpYyUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+              },
+              ]}
+              long={10} lat={0} />
+              <ResturantCard id={14} imgUrl="https://images.unsplash.com/photo-1619025873875-59dfdd2bbbd6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fGVtZXJnZW5jeSUyMHNlcnZpY2VzfGVufDB8fDB8fHww"
+                    title="Hospitals" rating={7.5} genre="Earthy" address="56"
+                    short_description="Hospitals stand as beacons of healing and hope, providing essential medical care and support to individuals in times of illness and injury. With their skilled healthcare professionals and state-of-the-art facilities, they offer comfort and compassion to patients and their families, ensuring that everyone receives the care they need to recover and thrive." 
+                    dishes ={[
+              {
+                name: "Hospital Main",
+                description: "Commited to serve.",
+                id: "3",
+                image: "https://images.unsplash.com/photo-1484301548518-d0e0a5db0fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJ1c3RpYyUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+              },
+              {
+                name: "Dispensary",
+                description: "24/7 open. ",
+                price: 10.99,
+                id: "4",
+                image: "https://images.unsplash.com/photo-1540809799-5da9372c3f64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJ1c3RpYyUyMGludGVyaW9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+              },
+            ]}
+            long={10} lat={0} />
 
 
       </ScrollView>
